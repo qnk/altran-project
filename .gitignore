@@ -24,3 +24,7 @@ coverage
 
 # Benchmarking
 benchmarks/graphs
+
+#more
+.git
+.c9
