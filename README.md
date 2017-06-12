@@ -38,7 +38,7 @@ There are some potential improvements on the code to improve a little bit more i
   - Documentation and logs should be on an upper folder level to improve security. From root it's proposed:
     - /docs
     - /logs
-      - /src (where the code is placed)
+    - /src (where the code is placed)
 ---
 # How to use this API
 
