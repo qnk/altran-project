@@ -1,0 +1,9 @@
+{
+    "log": {
+        "console": true
+    },
+    "url": {
+        "host": "https://altran-project-jaqnk.c9users.io"
+    },
+    "webserviceHost": "http://www.mocky.io/v2/"
+}

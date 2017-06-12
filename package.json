@@ -1,0 +1,33 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ajv": "^5.1.5",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "bunyan": "^1.8.10",
+    "cors": "^2.8.3",
+    "express": "~4.0.0",
+    "express-session": "^1.15.3",
+    "helmet": "^3.6.1",
+    "jade": "*",
+    "mongoose": "^4.10.4",
+    "q": "^1.5.0",
+    "querystring": "^0.2.0",
+    "request": "^2.81.0",
+    "require": "^2.4.20",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "mocha": "^3.4.2",
+    "newman": "^3.6.1",
+    "raml": "^1.0.0",
+    "raml2html": "^6.3.0"
+  }
+}

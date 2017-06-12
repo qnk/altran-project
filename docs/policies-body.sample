@@ -1,0 +1,8 @@
+{
+    id: "64cceef9-3a01-49ae-a23b-3761b604800b",
+    amountInsured: 1825.89,
+    email: "inesblankenship@quotezart.com",
+    inceptionDate: "2016-06-01T03:33:32Z",
+    installmentPayment: true,
+    clientId: "e8fd159b-57c4-4d36-9bd7-a59ca13057bb"
+}

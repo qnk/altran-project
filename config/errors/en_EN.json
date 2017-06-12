@@ -1,0 +1,26 @@
+{
+    "INTERNAL_ERROR": {
+        "status": 500,
+        "message": "Internal error"
+    },
+    "REQUEST_ERROR": {
+        "status": 500,
+        "message": "There was an error retrieving data from webservice"
+    },
+    "BAD_REQUEST_ERROR": {
+        "status": 400,
+        "message": "Bad request"
+    },
+    "FORBIDDEN": {
+        "message": "Access is denied",
+        "status" : 403
+    },
+    "INVALID_ROL": {
+        "message": "Unvalid rol. Access is denied",
+        "status" : 403
+    },
+    "ERROR_WITH_PARAMS": {
+        "message": "Error with params",
+        "status" : 500
+    }
+}

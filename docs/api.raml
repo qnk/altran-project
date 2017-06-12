@@ -1,0 +1,76 @@
+#%RAML 1.0
+title: GitHub API
+version: v1
+baseUri: https://api.github.com
+documentation:
+ - title: Home
+   content: |
+     Welcome to the Altran project documentation space created by José Antonio Cuenca.
+     You can find out more about me [on Linkedin](https://www.linkedin.com/in/jos%C3%A9-antonio-cuenca-9b085935/)
+mediaType:  application/json
+/users:
+    /{userId}:
+        description: Get user data filtered by user id. Can be accessed by users with role "users" and "admin"
+        type: collection
+        get: 
+            responses:
+                200:
+                    body:
+                        application/json:
+                            example: !include user-body.sample
+                500:
+                    body:
+                        application/json:
+                            example: |
+                                {
+                                    "message": Internal error recovering projects
+                                }
+    /{userName}:
+        description: Get user data filtered by user name. Can be accessed by users with role "users" and "admin"
+        type: collection
+        get:
+            responses:
+                200:
+                    body:
+                        application/json:
+                            example: !include user-body.sample
+                500:
+                    body:
+                        application/json:
+                            example: |
+                                {
+                                    "message": Internal error recovering projects
+                                }
+    /policies/{policyNumber}:
+        description: Get the list of policies linked to a user name. Can be accessed by users with role "admin"
+        type: collection
+        get:
+            responses:
+                200:
+                    body:
+                        application/json:
+                            example: !include policies-body.sample
+                500:
+                    body:
+                        application/json:
+                            example: |
+                                {
+                                    "message": Internal error recovering projects
+                                }
+/policies/users/name:
+    /{userName}:
+        description: Get the user linked to a policy number. Can be accessed by users with role admin
+        type: collection
+        get:
+            responses:
+                200:
+                    body:
+                        application/json:
+                            example: !include policies-body.sample
+                500:
+                    body:
+                        application/json:
+                            example: |
+                                {
+                                    "message": Internal error recovering projects
+                                }

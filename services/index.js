@@ -1,0 +1,5 @@
+module.exports.users    = require('./UserService')
+module.exports.policies = require('./PolicyService')
+module.exports.roles    = require('./RolService')
+module.exports.logs     = require('./LogService')
+module.exports.errors   = require('./ErrorService')

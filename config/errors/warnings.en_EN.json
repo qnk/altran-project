@@ -1,0 +1,5 @@
+{
+    "MORE_THAN_ONE_USER": {
+        "message": "Found more than one user, but should be unique. Continue working with the first user found"
+    }
+}

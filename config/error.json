@@ -1,0 +1,7 @@
+{
+    "name": "errors",
+    "streams": [{
+        "level": "error",
+        "path": "../../logs/api-error.log"
+    }]
+}
