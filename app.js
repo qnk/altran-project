@@ -80,8 +80,8 @@ app.use((err, req, res, next) => {
 listen()
 
 function listen() {
-    var port = process.env.PORT
-    ,   env  = app.get('env')
+    const port = app.get('port');
+    const env  = app.get('env')
 
     // if (env !== 'production') port = 3005
 
