@@ -81,7 +81,7 @@ listen()
 
 function listen() {
     const port = app.get('port');
-    const env  = app.get('env')
+    const env  = app.get('env');
 
     // if (env !== 'production') port = 3005
 
